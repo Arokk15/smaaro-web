@@ -1,0 +1,50 @@
+#box1{
+    width:200px;
+    height:300px;
+    border:2px solid ;
+    background:  red;
+    position:relative;
+    transform: translateX(200px);
+    overflow: hidden;
+}
+#box2{
+    width:200px;
+    height:300px;
+    position:absolute;
+    background: black;
+
+
+}
+
+.imagebox{
+     display:flex;
+     position:absolute;
+     
+     
+}
+.imagebox img{
+    margin:25px 20px ;
+}
+.btnc{
+    width:34%;
+    position:absolute;
+    background: greenyellow;
+}
+.button{
+
+    position: relative;
+    display:flex;
+}
+.button .buttonl{
+    width:10px;
+    height:10px;
+    background:white;
+    
+;
+}
+.button .buttonr{
+    width:10px;
+    height:10px;
+    background:white; 
+}
+
